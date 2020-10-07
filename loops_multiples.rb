@@ -18,4 +18,12 @@
 # 20
 
 p "Enter a number:"
+number = gets.chomp
+
+i = 1
+10.times do
+  mult = i*number.to_i
+  p mult
+  i = i + 1
+end
 
